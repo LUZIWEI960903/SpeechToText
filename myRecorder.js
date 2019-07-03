@@ -1,6 +1,6 @@
 var recorder;
 var audio = document.querySelector('audio');
-// var WAV_audio//音频文件
+// var WAV_audio//音频文件sadasdasdf
 // var base64_WAV_audio//64位音频
 
 // 转URL
