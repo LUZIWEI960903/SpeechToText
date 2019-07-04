@@ -39,12 +39,13 @@ function startRecording(a, b) {
 function stopRecording(a, b) {
     recorder.stop();
     changeStatus(a, b);
+    // playRecording();
     WAV_audio = recorder.getBlob();
     console.info(Object.prototype.toString.call(WAV_audio));
     // console.info(WAV_audio);
     // base64_WAV_audio = blobToDataURL(WAV_audio);
-    // recorder.play(audio);
-    uploadAudio();
+    recorder.play(audio);
+    // uploadAudio();
 }
 
 function playRecording() {
