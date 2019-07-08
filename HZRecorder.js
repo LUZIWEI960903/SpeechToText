@@ -17,7 +17,7 @@
             size: 0          //录音文件长度
             , buffer: []     //录音缓存
             , inputSampleRate: context.sampleRate    //输入采样率
-            , inputSampleBits: 16       //输入采样数位 8, 16
+            , inputSampleBits: 8       //输入采样数位 8, 16
             , outputSampleRate: config.sampleRate    //输出采样率
             , oututSampleBits: config.sampleBits       //输出采样数位 8, 16
             , input: function (data) {
